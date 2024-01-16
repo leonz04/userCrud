@@ -9,3 +9,10 @@
     text-align: center;
     
 }
+
+.user__delete{
+    
+    font-weight:700;
+    text-transform: capitalize;
+
+}
