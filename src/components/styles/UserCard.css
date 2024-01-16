@@ -68,8 +68,7 @@
 
 .user__hr{
     
-    border-color: lightgray ;
-    filter: brightness(1.8);
+    border-color: rgba(236, 234, 234, 0.456) ;
     
     width: 80%;
     height: 1px;

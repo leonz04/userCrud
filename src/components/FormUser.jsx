@@ -22,11 +22,11 @@ const FormUser = ({ createUser, userUpdate, updateUser, setUserUpdate,setIsFormC
         }
 
         reset({
-            email: '',
-            password: '',
-            first_name: '',
-            last_name: '',
-            birthday: ''
+            email: 'a@a.com',
+            password: 'fsfa',
+            first_name: 'andres',
+            last_name: 'leon',
+            birthday: '01/04/1990'
         })
         setIsFormClose(true)
     }

@@ -7,7 +7,7 @@ const ConfirmationCard = ({setIsConfirmation,userDelete}) => {
         
     }
   return (
-    <article >
+    <article className='window__msg' >
         <div className='form__x' onClick={handleExit}>x</div>
         <h2 className='title__confirmation'>Eliminar Usuario</h2>
         <p className='msg__confirmation'>El Usuario {userDelete}ha sido eliminado</p>
