@@ -4,7 +4,7 @@ const UserCard = ({user,deleteUser,setUserUpdate,setIsFormClose,setIsConfirmatio
 
     const handleDelete=()=>{
         deleteUser(user.id)
-        setUserDelete(`${user.first_name} ${user.last_name }`)
+        setUserDelete(`${user.firstName} ${user.lastName }`)
         setIsConfirmation(false)
         
     }
