@@ -16,7 +16,7 @@ const UserCard = ({user,deleteUser,setUserUpdate,setIsFormClose,setIsConfirmatio
 
   return (
     <article className="card__user">
-    <h2 className="user__name">{user.first_name} {user.last_name}</h2>
+    <h2 className="user__name">{user.firstName} {user.lastName}</h2>
     <hr className="user__hr" />
     <ul className="user__list">
       <li className="user__item__list">
